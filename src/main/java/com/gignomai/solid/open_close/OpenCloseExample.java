@@ -7,7 +7,7 @@ interface PlayerMovement {
 }
 
 class Player {
-    public static final void move(int movementRange, PlayerMovement playerMovement) {
+    public static void move(int movementRange, PlayerMovement playerMovement) {
         System.out.println(playerMovement.moves(movementRange));
     }
 }
